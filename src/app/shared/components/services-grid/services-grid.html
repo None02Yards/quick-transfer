@@ -1,0 +1,41 @@
+<section class="services-section">
+
+  <div class="section-header">
+
+    <h3>Services</h3>
+
+    <button
+      class="view-all-btn"
+      routerLink="/payments">
+      View All
+    </button>
+
+  </div>
+
+  <div class="services-grid">
+
+    @for(service of services; track service.title) {
+
+      <button
+        class="service-card"
+        [routerLink]="service.route">
+
+        <div class="service-icon">
+
+          <span class="material-icons-outlined">
+            {{ service.icon }}
+          </span>
+
+        </div>
+
+        <span class="service-title">
+          {{ service.title }}
+        </span>
+
+      </button>
+
+    }
+
+  </div>
+
+</section>

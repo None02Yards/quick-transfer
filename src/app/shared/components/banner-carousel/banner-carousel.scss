@@ -1,0 +1,158 @@
+.banner-wrapper {
+
+  margin-top: -40px;
+margin-bottom: 20px;
+  position: relative;
+  top: 102px;
+padding: 0 16px;
+  z-index: 100;
+}
+
+.banner-card {
+
+  background: #fff;
+
+  border-radius: 20px;
+
+  min-height: 130px;
+
+  padding: 16px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  box-shadow:
+    0 8px 20px rgba(0,0,0,.08);
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+// .banner-card::before {
+
+//   content: '';
+
+//   position: absolute;
+
+//   left: -60px;
+//   top: -30px;
+
+//   width: 180px;
+//   height: 180px;
+
+//   background:
+//     linear-gradient(
+//       135deg,
+//       rgba(255,122,61,.18),
+//       rgba(109,0,255,.12)
+//     );
+
+//   border-radius: 50%;
+// }
+// .banner-image {
+
+//   width: 120px;
+
+//   height: 90px;
+
+//   display: flex;
+
+//   align-items: center;
+
+//   justify-content: center;
+// }
+
+.banner-image {
+
+  width: 130px;
+
+  height: 90px;
+
+  border-radius: 20px;
+
+  background: #f4f4f4;
+
+  position: relative;
+}
+
+.banner-image::before {
+
+  content: '';
+
+  position: absolute;
+
+  inset: 0;
+
+  background-image: url('/assets/images/mobilelogo.jpg');
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  background-size: contain;
+}
+// .banner-image img {
+
+//   max-width: 100%;
+
+//   max-height: 100%;
+
+//   object-fit: contain;
+// }
+
+.banner-content {
+
+  width: 55%;
+
+  text-align: center;
+
+  z-index: 2;
+}
+
+.banner-content h3 {
+
+  color: #5a239e;
+
+  margin-bottom: 8px;
+
+  font-size: 24px;
+}
+
+.banner-content p {
+
+  color: #5a239e;
+
+  font-size: 28px;
+
+  font-weight: 600;
+}
+
+.carousel-dots {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  margin-top: 12px;
+}
+
+.carousel-dots span {
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #ddd;
+}
+
+.carousel-dots .active {
+
+  background: #ff7a3d;
+}

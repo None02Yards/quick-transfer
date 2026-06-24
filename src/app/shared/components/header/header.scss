@@ -1,0 +1,158 @@
+
+
+// // .header {
+
+// //   position: fixed;
+
+// //   top: 0;
+
+// //   width: 100%;
+// //   max-width: 430px;
+
+// //   height: 280px;
+
+// //   background:
+// //     linear-gradient(
+// //       135deg,
+// //       #ff7a3d,
+// //       #6d00ff
+// //     );
+
+// //   z-index: 100;
+// // }
+
+// .header-top {
+
+//   display: flex;
+
+//   justify-content: space-between;
+
+//   align-items: flex-start;
+
+//   padding: 20px;
+
+// //   width: 100%;
+// }
+// .header {
+
+//   position: fixed;
+
+//   top: 0;
+
+//   left: 50%;
+
+//   transform: translateX(-50%);
+
+//   width: 100%;
+//   max-width: 430px;
+
+//   height: 260px;
+
+//   color: white;
+
+//   background:
+//     linear-gradient(
+//       135deg,
+//       #ff7a3d,
+//       #6d00ff
+//     );
+
+//   z-index: 100;
+// }
+
+// // .greeting {
+
+// //   display: block;
+
+// //   font-size: 12px;
+
+// //   opacity: .85;
+// // }
+
+// // .user-area h2 {
+
+// //   margin-top: 4px;
+
+// //   font-size: 18px;
+
+// //   font-weight: 600;
+// // }
+
+// .user-area {
+
+//   display: flex;
+//   flex: 1;
+//   flex-direction: column;
+// }
+
+// .greeting {
+
+//   font-size: 13px;
+
+//   opacity: .9;
+// }
+
+// .user-area h2 {
+
+//   margin-top: 6px;
+
+//   font-size: 22px;
+
+//   font-weight: 600;
+// }
+
+
+// .header-actions {
+
+//   display: flex;
+
+//   gap: 10px;
+// }
+
+// .icon-btn {
+
+//   width: 42px;
+//   height: 42px;
+
+//   border: none;
+
+//   border-radius: 12px;
+
+//   cursor: pointer;
+
+//   background: rgba(255,255,255,.15);
+
+//   color: white;
+// }
+
+// .notification {
+//   position: relative;
+// }
+
+// .badge {
+
+//   position: absolute;
+
+//   top: -5px;
+//   right: -5px;
+
+//   width: 18px;
+//   height: 18px;
+
+//   border-radius: 50%;
+
+//   background: #ff5252;
+
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+
+//   font-size: 10px;
+// }
+
+// .header-banner {
+
+//   padding: 0 16px;
+
+//   margin-top: 20px;
+// }

@@ -1,0 +1,82 @@
+<section class="statement-page">
+
+  <div class="top-bar">
+
+    <div class="top-bar-left">
+
+      <button
+        class="back-btn"
+        (click)="goBack()">
+
+        <i class="fa-solid fa-chevron-left"></i>
+
+      </button>
+
+      <h4>QNB ALAHLI</h4>
+
+    </div>
+
+    <div class="top-bar-right">
+
+      <div class="qnb-logo"></div>
+
+    </div>
+
+  </div>
+
+  <div class="account-info">
+
+    <p class="label">
+      Account Info
+    </p>
+
+    <h3>
+      {{ accountNumber }}
+    </h3>
+
+    <p class="account-type">
+      {{ accountType }}
+    </p>
+
+  </div>
+
+  <div class="statement-header">
+
+    Current Date & Time:
+    {{ currentDate }}
+
+  </div>
+
+  <div class="table-header">
+
+    <span>Date/Remarks</span>
+
+    <span>Amount</span>
+
+  </div>
+
+  <div
+    class="transaction-row"
+    *ngFor="let transaction of transactions">
+
+    <div class="transaction-info">
+
+      <div class="date">
+        {{ transaction.date }}
+      </div>
+
+      <div class="remarks">
+        {{ transaction.remarks }}
+      </div>
+
+    </div>
+
+    <div class="amount">
+
+      {{ transaction.amount }}
+
+    </div>
+
+  </div>
+
+</section>

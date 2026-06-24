@@ -1,0 +1,110 @@
+.dashboard-hero {
+
+  background:
+    linear-gradient(
+      135deg,
+      #ff7a3d,
+      #6d00ff
+    );
+
+  padding: 20px 16px 16px;
+
+  position: relative;
+}
+
+.hero-top {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  margin-bottom: 20px;
+}
+
+
+.user-area {
+
+  display: flex;
+
+  flex-direction: column;
+
+  color: white;
+}
+
+.greeting {
+
+  font-size: 13px;
+
+  opacity: .9;
+}
+
+.user-area h2 {
+
+  margin: 6px 0 0;
+
+  font-size: 22px;
+
+  font-weight: 600;
+}
+
+
+.header-actions {
+
+  display: flex;
+
+  gap: 10px;
+}
+
+.icon-btn {
+
+  width: 42px;
+
+  height: 42px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: rgba(255,255,255,.18);
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.notification {
+
+  position: relative;
+}
+
+.badge {
+
+  position: absolute;
+
+  top: -5px;
+
+  right: -5px;
+
+  width: 18px;
+
+  height: 18px;
+
+  border-radius: 50%;
+
+  background: #ff5252;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 10px;
+}
+
+.hero-banner {
+
+  margin-top: 10px;
+}

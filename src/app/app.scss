@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+
+  --mobile-width: 412px;
+
+  --page-padding: 16px;
+
+  --card-radius: 24px;
+
+  --section-gap: 16px;
+
+  --icon-box: 72px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #eceff4;
+  font-family: Inter, Arial, sans-serif;
+}

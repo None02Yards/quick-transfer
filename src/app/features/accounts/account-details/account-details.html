@@ -1,0 +1,63 @@
+<section class="balance-page">
+
+<div class="top-bar">
+
+  <div class="top-bar-left">
+
+    <button
+      class="back-btn"
+      (click)="goBack()">
+
+      <i class="fa-solid fa-chevron-left"></i>
+
+    </button>
+
+    <h4>QNB ALAHLI</h4>
+
+  </div>
+
+  <div class="top-bar-right">
+
+    <div class="qnb-logo"></div>
+
+  </div>
+
+</div>
+
+  <div class="account-section">
+
+    <span class="label">
+      Account Info
+    </span>
+
+    <h3>
+      {{ accountNumber }}
+    </h3>
+
+    <span class="account-type">
+      {{ accountType }}
+    </span>
+
+  </div>
+
+  <div class="balance-section">
+
+    <p>
+      Your available account balance is
+    </p>
+
+    <h1>
+      {{ availableBalance }}
+    </h1>
+
+  </div>
+
+  <button
+    class="done-btn"
+    (click)="goBack()">
+
+    DONE
+
+  </button>
+
+</section>
