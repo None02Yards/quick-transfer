@@ -24,6 +24,45 @@ export class AccountStatement {
 
 transactions = [
 
+
+   {
+    date: '10-010-2026',
+    remarks: 'MONTHLY DEPOSIT',
+    amount: '+9,745.013 EGP'
+  },
+
+
+     {
+    date: '10-010-2026',
+    remarks: 'MONTHLY DEPOSIT',
+    amount: '+9,880.013 EGP'
+  },
+  
+
+   {
+    date: '10-010-2026',
+    remarks: 'MONTHLY DEPOSIT',
+    amount: '+9,880.013 EGP'
+  },
+
+   {
+    date: '10-09-2026',
+    remarks: 'MONTHLY DEPOSIT',
+    amount: '+9,880.013 EGP'
+  },
+
+
+   {
+    date: '10-08-2026',
+    remarks: 'MONTHLY DEPOSIT',
+    amount: '+9,845.013 EGP'
+  },
+
+  {
+    date: '10-07-2026',
+    remarks: 'MONTHLY DEPOSIT',
+    amount: '+9,745.013 EGP'
+  },
   {
     date: '10-06-2026',
     remarks: 'MONTHLY DEPOSIT',
