@@ -13,7 +13,7 @@ export class AccountDetails {
 
   accountType = 'SAVING';
 
-  availableBalance = '310,820.39 EGP';
+  availableBalance = '311,320.39 EGP';
 
   constructor(
     private location: Location
